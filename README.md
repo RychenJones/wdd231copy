@@ -20,3 +20,5 @@ Use this as a starting point to complete the WDD 231 personal activity. We will 
 ## Netlify link:
 
 https://brilliant-pika-45cf47.netlify.app
+
+## FOO
