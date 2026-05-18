@@ -85,7 +85,7 @@ function setupMapModalAndPromotions() {
 
 updateParkInformation();
 
-addEventListeners();
+
 setupMapModalAndPromotions();
 
 
@@ -149,7 +149,7 @@ async function buildParkMenuWithAsyncAwait() {
 }
 
 async function init() {
-  loadParkData();
+  updateParkInformation();
   buildHeaderMenuWithThen();
   await buildParkMenuWithAsyncAwait();
   addEventListeners();
