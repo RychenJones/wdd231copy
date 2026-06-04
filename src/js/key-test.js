@@ -8,15 +8,17 @@ const url = "https://developer.nps.gov/api/v1/parks?parkCode=yell";
 async function getPark() {
   const response = await fetch(url, {
     headers: {
-      "X-Api-Key": apiKey
+      "X-Api-Key": apiKey,
     }
   });
 
   let data = await response.json();
+  // data = JSON.parse(text)
 
   console.log(data);
-  const parkTag = document.getElementById("park-info");
-  parkTag.innerText = JSON.stringify(data);
+  const parkTag = document.getElementById("park-info")
+  parkTag.innerText = JSON.stringify(data)
+
 }
 
 getPark();
