@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Weather App</title>
+    <style>
+        div {
+            border: 5px solid black;
+            background-color: aliceblue;
+            color: navy;
+            border-radius: 20px;
+            box-shadow: 10px 10px 10px darkgray;
+            max-width: 200px;
+            margin: 0 auto;
+            padding: 2rem;
+
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Location (icon)</h2>
+        <h3>Current Condition</h3>
+        <h3>Temperature: </h3>
+        <h3>Windspeed: </h3>
+    </div>
+</body>
+<script>
+function getWeatherData(){
+    const data = {
+        location: "Rexburg",
+        conditions: "Sunny",
+        icon: "$#9728", 
+        temp: 50,
+        windspeed: 2
+    }
+}
+</script>
+</html>
